@@ -55,6 +55,7 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${poppins.variable} bg-background`}
     >
+      <head><meta name="p:domain_verify" content="cdbfbd1af9d3b7bbc3979b88d176c30a"/></head>
       <body className="font-sans antialiased">
         <SiteHeader />
         {children}
