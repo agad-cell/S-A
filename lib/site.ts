@@ -31,6 +31,18 @@ export type Product = {
 
 export const products: Product[] = [
   {
+    slug: 'study-tracker-free',
+    name: 'Study Tracker',
+    category: 'Habit Trackers',
+    price: '$0',
+    blurb: 'Track your study sessions and progress.',
+    description: 'Monitor your study time, track completion of topics, and measure your progress toward exam readiness. Free to download and use.',
+    image: '/products/study-tracker.png',
+    gumroad: `${GUMROAD_STORE}/l/tracker`,
+    isFree: true,
+    formats: ['Printable', 'PDF'],
+  },
+  {
     slug: 'ultimate-reading-journal',
     name: 'The Ultimate Reading Journal',
     category: 'Reading Trackers',
@@ -38,7 +50,7 @@ export const products: Product[] = [
     blurb: 'Track your reading journey with this beautifully designed reading journal.',
     description: 'Organize your reading life with dedicated pages for tracking books, setting goals, and reflecting on your favorite reads. Perfect for BookTok lovers.',
     image: '/products/reading-journal.png',
-    gumroad: `${GUMROAD_STORE}/l/tracker`,
+    gumroad: `${GUMROAD_STORE}/l/journal`,
     formats: ['Printable', 'PDF', 'Digital'],
   },
   {
@@ -49,7 +61,7 @@ export const products: Product[] = [
     blurb: 'Essential tips and frameworks for writing better essays.',
     description: 'A quick reference guide with proven frameworks, structure templates, and editing tips to elevate your essay writing.',
     image: '/products/essay-cheat-sheet.png',
-    gumroad: `${GUMROAD_STORE}/l/journal`,
+    gumroad: `${GUMROAD_STORE}/l/english`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -60,7 +72,7 @@ export const products: Product[] = [
     blurb: 'Study hacks for students, exam prep guide, learning & revision.',
     description: 'Master proven memory techniques like the method of loci, spaced repetition, and active recall. Designed for exam success.',
     image: '/products/memory-techniques.png',
-    gumroad: `${GUMROAD_STORE}/l/english`,
+    gumroad: `${GUMROAD_STORE}/l/best`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -71,7 +83,7 @@ export const products: Product[] = [
     blurb: 'Organize your week for academic success.',
     description: 'A comprehensive weekly planning system designed specifically for students. Includes assignment tracking, class schedules, and study blocks.',
     image: '/products/student-planner.png',
-    gumroad: `${GUMROAD_STORE}/l/best`,
+    gumroad: `${GUMROAD_STORE}/l/week45`,
     formats: ['Printable', 'PDF', 'Digital'],
   },
   {
@@ -82,7 +94,7 @@ export const products: Product[] = [
     blurb: 'Complete planning system with assignment tracking.',
     description: 'Everything a student needs in one system: semester overview, weekly planning, assignment tracker, grade calculator, and study scheduler.',
     image: '/products/student-assignment-tracker.png',
-    gumroad: `${GUMROAD_STORE}/l/week45`,
+    gumroad: `${GUMROAD_STORE}/l/high`,
     bestseller: true,
     formats: ['Printable', 'PDF', 'Digital'],
   },
@@ -94,7 +106,7 @@ export const products: Product[] = [
     blurb: 'Stay organized with a clean weekly planning system.',
     description: 'Minimalist weekly layout with time-blocking, priority lists, and space for notes. Works with GoodNotes, Notability, or as a printable.',
     image: '/products/weekly-planner.png',
-    gumroad: `${GUMROAD_STORE}/l/high`,
+    gumroad: `${GUMROAD_STORE}/l/weeklyplanner`,
     formats: ['Printable', 'PDF', 'Digital'],
   },
   {
@@ -105,7 +117,7 @@ export const products: Product[] = [
     blurb: 'Plan your exam prep with structured study schedule.',
     description: 'Organize your exam preparation with a study schedule builder, topic breakdown pages, and practice problem tracker.',
     image: '/products/exam-planner.png',
-    gumroad: `${GUMROAD_STORE}/l/weeklyplanner`,
+    gumroad: `${GUMROAD_STORE}/l/bnlcdt`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -116,7 +128,7 @@ export const products: Product[] = [
     blurb: 'Track your exam preparation progress.',
     description: 'Monitor your revision progress with topic checkers, practice score tracking, and confidence level charts for each exam subject.',
     image: '/products/exam-tracker.png',
-    gumroad: `${GUMROAD_STORE}/l/bnlcdt`,
+    gumroad: `${GUMROAD_STORE}/l/shock`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -127,7 +139,7 @@ export const products: Product[] = [
     blurb: 'Maximize your productivity with proven planning frameworks.',
     description: 'Combines productivity systems like time-blocking, the Eisenhower matrix, and daily goal-setting into one cohesive planner.',
     image: '/products/productivity-planner.png',
-    gumroad: `${GUMROAD_STORE}/l/shock`,
+    gumroad: `${GUMROAD_STORE}/l/ighdy`,
     formats: ['Printable', 'PDF', 'Digital'],
   },
   {
@@ -138,7 +150,7 @@ export const products: Product[] = [
     blurb: 'Organize your studies with a comprehensive study plan.',
     description: 'Create a personalized study schedule with subject breakdowns, study goal tracking, and weekly review pages.',
     image: '/products/study-planner-1.png',
-    gumroad: `${GUMROAD_STORE}/l/ighdy`,
+    gumroad: `${GUMROAD_STORE}/l/mdxsqu`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -149,7 +161,7 @@ export const products: Product[] = [
     blurb: 'Advanced study planning system with detailed tracking.',
     description: 'Premium study planner with comprehensive tracking for multiple subjects, progress monitoring, and exam countdown features.',
     image: '/products/study-planner-2.png',
-    gumroad: `${GUMROAD_STORE}/l/mdxsqu`,
+    gumroad: `${GUMROAD_STORE}/l/bbkuu`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -158,9 +170,9 @@ export const products: Product[] = [
     category: 'Habit Trackers',
     price: '$0',
     blurb: 'Track your daily habits and activities.',
-    description: 'A simple, beautiful daily tracker for habits, tasks, and reflections. Free to download and use.',
+    description: 'A simple, beautiful daily tracker for habits, tasks, and reflections. Perfect for building consistency. Free to download and use.',
     image: '/products/daily-tracker.png',
-    gumroad: `${GUMROAD_STORE}/l/bbkuu`,
+    gumroad: `${GUMROAD_STORE}/l/nzwdua`,
     isFree: true,
     formats: ['Printable', 'PDF'],
   },
@@ -172,7 +184,7 @@ export const products: Product[] = [
     blurb: 'Plan your day with detailed daily schedule.',
     description: 'Start each day with intention. Includes hourly time-blocks, priority list, habit tracker, and evening reflection.',
     image: '/products/daily-planner.png',
-    gumroad: `${GUMROAD_STORE}/l/ndavfi`,
+    gumroad: `${GUMROAD_STORE}/l/hwazz`,
     formats: ['Printable', 'PDF', 'Digital'],
   },
   {
@@ -183,7 +195,7 @@ export const products: Product[] = [
     blurb: 'Track your study sessions and progress.',
     description: 'Monitor your study time, track completion of topics, and measure your progress toward exam readiness.',
     image: '/products/study-tracker-1.png',
-    gumroad: `${GUMROAD_STORE}/l/jzjpdzd`,
+    gumroad: `${GUMROAD_STORE}/l/ygobsd`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -194,7 +206,7 @@ export const products: Product[] = [
     blurb: 'Advanced study tracking with analytics.',
     description: 'Free advanced study tracker with session logging, subject progress analytics, and productivity insights.',
     image: '/products/study-tracker-2.png',
-    gumroad: `${GUMROAD_STORE}/l/bqsnm`,
+    gumroad: `${GUMROAD_STORE}/l/hgiuw`,
     isFree: true,
     formats: ['Printable', 'PDF'],
   },
@@ -206,7 +218,7 @@ export const products: Product[] = [
     blurb: 'Overcome procrastination with structured planning.',
     description: 'Beat procrastination with task-breaking worksheets, motivation tracking, and accountability systems designed for chronic procrastinators.',
     image: '/products/anti-procrastination.png',
-    gumroad: `${GUMROAD_STORE}/l/3fyfskk`,
+    gumroad: `${GUMROAD_STORE}/l/zjlybz`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -217,7 +229,7 @@ export const products: Product[] = [
     blurb: 'Premium study planning with all features.',
     description: 'The complete study planning system with everything: schedules, trackers, goals, and detailed progress monitoring.',
     image: '/products/study-planner-3.png',
-    gumroad: `${GUMROAD_STORE}/l/Tsqf`,
+    gumroad: `${GUMROAD_STORE}/l/sell`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -228,7 +240,7 @@ export const products: Product[] = [
     blurb: 'Organize your projects and tasks efficiently.',
     description: 'A comprehensive project dashboard with task organization, progress tracking, and visual project overview system.',
     image: '/products/not-random.png',
-    gumroad: `${GUMROAD_STORE}/l/notdash`,
+    gumroad: `${GUMROAD_STORE}/l/ndavfi`,
     formats: ['PDF', 'Digital'],
   },
 ]
@@ -251,18 +263,18 @@ export type FreeResource = {
 
 export const freeResources: FreeResource[] = [
   {
-    slug: 'daily-tracker',
-    title: 'Daily Tracker',
-    description: 'A simple, beautiful daily tracker for habits, tasks, and reflections. Perfect for building consistency.',
-    image: '/products/daily-tracker.png',
-    gumroad: `${GUMROAD_STORE}/l/bbkuu`,
-  },
-  {
     slug: 'study-tracker-free',
     title: 'Study Tracker',
-    description: 'Track your study sessions, monitor your progress, and measure your readiness for exams. Completely free.',
-    image: '/products/study-tracker-2.png',
-    gumroad: `${GUMROAD_STORE}/l/bqsnm`,
+    description: 'A simple study tracker for monitoring your study sessions and progress. Free to download and use.',
+    image: '/products/study-tracker.png',
+    gumroad: `${GUMROAD_STORE}/l/tracker`,
+  },
+  {
+    slug: 'daily-tracker-free',
+    title: 'Daily Tracker',
+    description: 'Track your daily habits and activities. A simple, beautiful daily tracker for building consistency. Completely free.',
+    image: '/products/daily-tracker.png',
+    gumroad: `${GUMROAD_STORE}/l/nzwdua`,
   },
 ]
 
