@@ -38,7 +38,7 @@ export const products: Product[] = [
     blurb: 'Track your reading journey with this beautifully designed reading journal.',
     description: 'Organize your reading life with dedicated pages for tracking books, setting goals, and reflecting on your favorite reads. Perfect for BookTok lovers.',
     image: '/products/reading-journal.png',
-    gumroad: `${GUMROAD_STORE}/l/ultimatej`,
+    gumroad: `${GUMROAD_STORE}/l/tracker`,
     formats: ['Printable', 'PDF', 'Digital'],
   },
   {
@@ -49,7 +49,7 @@ export const products: Product[] = [
     blurb: 'Essential tips and frameworks for writing better essays.',
     description: 'A quick reference guide with proven frameworks, structure templates, and editing tips to elevate your essay writing.',
     image: '/products/essay-cheat-sheet.png',
-    gumroad: `${GUMROAD_STORE}/l/essaysg`,
+    gumroad: `${GUMROAD_STORE}/l/journal`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -60,7 +60,7 @@ export const products: Product[] = [
     blurb: 'Study hacks for students, exam prep guide, learning & revision.',
     description: 'Master proven memory techniques like the method of loci, spaced repetition, and active recall. Designed for exam success.',
     image: '/products/memory-techniques.png',
-    gumroad: `${GUMROAD_STORE}/l/mcht`,
+    gumroad: `${GUMROAD_STORE}/l/english`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -71,7 +71,7 @@ export const products: Product[] = [
     blurb: 'Organize your week for academic success.',
     description: 'A comprehensive weekly planning system designed specifically for students. Includes assignment tracking, class schedules, and study blocks.',
     image: '/products/student-planner.png',
-    gumroad: `${GUMROAD_STORE}/l/studentsp`,
+    gumroad: `${GUMROAD_STORE}/l/best`,
     formats: ['Printable', 'PDF', 'Digital'],
   },
   {
@@ -82,7 +82,7 @@ export const products: Product[] = [
     blurb: 'Complete planning system with assignment tracking.',
     description: 'Everything a student needs in one system: semester overview, weekly planning, assignment tracker, grade calculator, and study scheduler.',
     image: '/products/student-assignment-tracker.png',
-    gumroad: `${GUMROAD_STORE}/l/tutassign`,
+    gumroad: `${GUMROAD_STORE}/l/week45`,
     bestseller: true,
     formats: ['Printable', 'PDF', 'Digital'],
   },
@@ -94,7 +94,7 @@ export const products: Product[] = [
     blurb: 'Stay organized with a clean weekly planning system.',
     description: 'Minimalist weekly layout with time-blocking, priority lists, and space for notes. Works with GoodNotes, Notability, or as a printable.',
     image: '/products/weekly-planner.png',
-    gumroad: `${GUMROAD_STORE}/l/weeklyplanner`,
+    gumroad: `${GUMROAD_STORE}/l/high`,
     formats: ['Printable', 'PDF', 'Digital'],
   },
   {
@@ -105,7 +105,7 @@ export const products: Product[] = [
     blurb: 'Plan your exam prep with structured study schedule.',
     description: 'Organize your exam preparation with a study schedule builder, topic breakdown pages, and practice problem tracker.',
     image: '/products/exam-planner.png',
-    gumroad: `${GUMROAD_STORE}/l/Classds`,
+    gumroad: `${GUMROAD_STORE}/l/weeklyplanner`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -116,7 +116,7 @@ export const products: Product[] = [
     blurb: 'Track your exam preparation progress.',
     description: 'Monitor your revision progress with topic checkers, practice score tracking, and confidence level charts for each exam subject.',
     image: '/products/exam-tracker.png',
-    gumroad: `${GUMROAD_STORE}/l/Irtslx`,
+    gumroad: `${GUMROAD_STORE}/l/bnlcdt`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -127,7 +127,7 @@ export const products: Product[] = [
     blurb: 'Maximize your productivity with proven planning frameworks.',
     description: 'Combines productivity systems like time-blocking, the Eisenhower matrix, and daily goal-setting into one cohesive planner.',
     image: '/products/productivity-planner.png',
-    gumroad: `${GUMROAD_STORE}/l/cjKR3k`,
+    gumroad: `${GUMROAD_STORE}/l/shock`,
     formats: ['Printable', 'PDF', 'Digital'],
   },
   {
@@ -138,7 +138,7 @@ export const products: Product[] = [
     blurb: 'Organize your studies with a comprehensive study plan.',
     description: 'Create a personalized study schedule with subject breakdowns, study goal tracking, and weekly review pages.',
     image: '/products/study-planner-1.png',
-    gumroad: `${GUMROAD_STORE}/l/ndstudp`,
+    gumroad: `${GUMROAD_STORE}/l/ighdy`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -149,7 +149,7 @@ export const products: Product[] = [
     blurb: 'Advanced study planning system with detailed tracking.',
     description: 'Premium study planner with comprehensive tracking for multiple subjects, progress monitoring, and exam countdown features.',
     image: '/products/study-planner-2.png',
-    gumroad: `${GUMROAD_STORE}/l/kkjkau`,
+    gumroad: `${GUMROAD_STORE}/l/mdxsqu`,
     formats: ['Printable', 'PDF'],
   },
   {
@@ -160,7 +160,7 @@ export const products: Product[] = [
     blurb: 'Track your daily habits and activities.',
     description: 'A simple, beautiful daily tracker for habits, tasks, and reflections. Free to download and use.',
     image: '/products/daily-tracker.png',
-    gumroad: `${GUMROAD_STORE}/l/Hnsuokd`,
+    gumroad: `${GUMROAD_STORE}/l/bbkuu`,
     isFree: true,
     formats: ['Printable', 'PDF'],
   },
@@ -172,7 +172,7 @@ export const products: Product[] = [
     blurb: 'Plan your day with detailed daily schedule.',
     description: 'Start each day with intention. Includes hourly time-blocks, priority list, habit tracker, and evening reflection.',
     image: '/products/daily-planner.png',
-    gumroad: `${GUMROAD_STORE}/l/lhmsanz`,
+    gumroad: `${GUMROAD_STORE}/l/ndavfi`,
     formats: ['Printable', 'PDF', 'Digital'],
   },
   {
@@ -255,7 +255,7 @@ export const freeResources: FreeResource[] = [
     title: 'Daily Tracker',
     description: 'A simple, beautiful daily tracker for habits, tasks, and reflections. Perfect for building consistency.',
     image: '/products/daily-tracker.png',
-    gumroad: `${GUMROAD_STORE}/l/Hnsuokd`,
+    gumroad: `${GUMROAD_STORE}/l/bbkuu`,
   },
   {
     slug: 'study-tracker-free',
